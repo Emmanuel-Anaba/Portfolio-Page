@@ -38,6 +38,7 @@ header {
     text-decoration: none;
     font-size: 120%;
     position: relative;
+    transition: ease .4s;
 }
 
 #nav ul li a::after {
@@ -66,13 +67,13 @@ header {
 }
 
 /* About */
-.about {
+#about {
     width: 100%;
     padding: 3% 0;
     background-color: #858585;
 }
 
-.about img {
+#about img {
     width: 45%;
 }
 
